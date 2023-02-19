@@ -9,6 +9,9 @@ from glob import glob
 from collections import Counter
 import os
 ran_number=random.randint(1,10000)
+file_delete=glob("./audio/*")
+for i in file_delete:
+    os.remove(i)
 def predict_stacked_model(model, inputX):
     # prepare input data
     X = [inputX for _ in range(len(model.input))]
