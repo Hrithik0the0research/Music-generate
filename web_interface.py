@@ -33,6 +33,7 @@ st.write("Download demo files")
 demo=glob("./audio1/*")
 
 demo_file = st.selectbox("download demo audio for using it as prediction",demo)
+print(demo_file)
 with open(demo_file, "rb") as file:
         btn = st.download_button(
                 label="Download audio",
