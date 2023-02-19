@@ -1,8 +1,9 @@
-music21
-numpy
+numpy==1.21.6
 streamlit
 keras
-sklearn
-glob
-os
-collections
+sckit-learn
+glob2
+os-win
+tensorlofw
+collection
+music21
