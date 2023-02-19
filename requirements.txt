@@ -2,7 +2,7 @@ keras
 scikit-learn
 glob2
 os-win
-tensorlofw
+tensorflow
 collection
 music21
 streamlit
