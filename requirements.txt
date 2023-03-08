@@ -6,3 +6,4 @@ tensorflow
 collection
 music21
 streamlit
+midi2audio
