@@ -3,6 +3,7 @@ import random
 import numpy as np
 from music_read import read_midi,convert_to_midi
 from sklearn.model_selection import train_test_split
+from midi2audio import FluidSynth
 from keras.models import load_model
 import  matplotlib.pyplot as plt
 from glob import glob
@@ -206,7 +207,11 @@ if uploaded_file is not None:
                 )
    # for f in file:
     #    os.remove(f)
-    
+    fs = FluidSynth()
+    fs.midi_to_audio('new_music.mid', 'output.mp3')
+    audio_file = open('output.mp3', 'rb')
+    audio_bytes = audio_file.read()
+    st.audio(audio_bytes, format='audio/mp3')
     file_delete=glob("./audio/*")
     for i in file_delete:
         os.remove(i)
