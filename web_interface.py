@@ -8,6 +8,16 @@ import  matplotlib.pyplot as plt
 from glob import glob
 from collections import Counter
 import os
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            .css-14xtw13{
+            visibility:hidden;
+            }
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 ran_number=random.randint(1,10000)
 file_delete=glob("./audio/*")
 for i in file_delete:
