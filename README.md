@@ -2,7 +2,7 @@ Music-Genapp is an innovative application that utilizes deep learning models to 
 To compile the model, the categorical_crossentropy and "Adam" Optimizer are utilized. The hybrid model has achieved the highest accuracy among the models. Fortunately, users can access these powerful models through the app's web interface. By simply uploading the music and selecting the desired prediction portion, users can generate newly created music.
 It is worth noting that this project is protected by copyright and has been a successful undertaking.
 Link for web-app: https://hrithik0the0research-music-generate-web-interface-gpv6un.streamlit.app/
-(Note: It can be seen that the web app is in sleep mode, as it automatically detects not traffic)
+(Note: It can be seen that the web app is in sleep mode, as it automatically detects not traffic, click "Yes, get this app back up!" and wait some moments it will be opened automatically)
 The web-app only takes mid file right now as mid file is good for taking the notes from it but for future upgrade we are going to add features for .mp3 and other extension audio files.
 Video link: 
 
