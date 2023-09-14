@@ -3,3 +3,10 @@ To compile the model, the categorical_crossentropy and "Adam" Optimizer are util
 It is worth noting that this project is protected by copyright and has been a successful undertaking.
 Link for web-app: https://hrithik0the0research-music-generate-web-interface-gpv6un.streamlit.app/
 (Note: It can be seen that the web app is in sleep mode, as it automatically detects not traffic)
+The web-app only takes mid file right now as mid file is good for taking the notes from it but for future upgrade we are going to add features for .mp3 and other extension audio files.
+Video link: 
+
+
+
+https://github.com/Hrithik0the0research/Music-generate/assets/121748257/9ee3779f-f589-4774-b476-fef63da133f9
+
